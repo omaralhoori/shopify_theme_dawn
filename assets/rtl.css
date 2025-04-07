@@ -1,0 +1,156 @@
+/* RTL Styles for Dawn Theme */
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Header Adjustments */
+[dir="rtl"] .header {
+    flex-direction: row-reverse;
+}
+
+[dir="rtl"] .header__menu-item {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+
+[dir="rtl"] .header__icon {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+/* List and Navigation Adjustments */
+[dir="rtl"] .list-menu {
+    padding-right: 0;
+}
+
+[dir="rtl"] .list-menu__item {
+    text-align: right;
+}
+
+/* Grid and Layout Adjustments */
+[dir="rtl"] .grid {
+    margin-left: 0;
+    margin-right: -1.5rem;
+}
+
+[dir="rtl"] .grid__item {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+/* Form Elements */
+[dir="rtl"] .field__input,
+[dir="rtl"] .select__select {
+    text-align: right;
+    padding-right: 1.5rem;
+    padding-left: 4.5rem;
+}
+
+[dir="rtl"] .field__label {
+    left: auto;
+    right: 1.5rem;
+}
+
+/* Product Cards */
+[dir="rtl"] .card-information {
+    text-align: right;
+}
+
+/* Cart Elements */
+[dir="rtl"] .cart-items {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+[dir="rtl"] .cart-item__media {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+/* Footer Adjustments */
+[dir="rtl"] .footer {
+    text-align: right;
+}
+
+[dir="rtl"] .footer-block__details-content {
+    padding-right: 0;
+}
+
+/* Button Icons */
+[dir="rtl"] .button .icon {
+    margin-right: 0;
+    margin-left: 1rem;
+    transform: scaleX(-1);
+}
+
+/* Modal and Drawer */
+[dir="rtl"] .modal__close-button,
+[dir="rtl"] .drawer__close-button {
+    right: auto;
+    left: 1.5rem;
+}
+
+/* Search Form */
+[dir="rtl"] .search__button {
+    right: auto;
+    left: 1rem;
+}
+
+/* Slider Controls */
+[dir="rtl"] .slider-counter {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+[dir="rtl"] .slider-button--prev {
+    transform: rotate(180deg);
+}
+
+[dir="rtl"] .slider-button--next {
+    transform: rotate(180deg);
+}
+
+/* Price Elements */
+[dir="rtl"] .price {
+    justify-content: flex-end;
+}
+
+[dir="rtl"] .price__regular,
+[dir="rtl"] .price__sale {
+    margin-right: 0;
+    margin-left: 0.6rem;
+}
+
+/* Collection Page */
+[dir="rtl"] .collection-filters__sort {
+    text-align: right;
+}
+
+/* Product Page */
+[dir="rtl"] .product__media-list {
+    padding-right: 0;
+}
+
+[dir="rtl"] .product__info-wrapper {
+    padding-left: 0;
+    padding-right: 4rem;
+}
+
+/* Facets */
+[dir="rtl"] .facets__form {
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+/* Mobile Menu */
+@media screen and (max-width: 989px) {
+    [dir="rtl"] .header__menu-item {
+        padding-right: 0;
+        padding-left: 1.5rem;
+    }
+    
+    [dir="rtl"] .menu-drawer__navigation {
+        padding-right: 0;
+    }
+} 
